@@ -3,6 +3,11 @@ from torch.utils.data import Dataset
 from data import synthetic_data_loader
 
 
+class opt:
+  def __init__(self):
+    self.dataset_root = 'output'
+    self.image_size = 28
+
 CACHE = {}
 
 DSET_SPLIT_SIZES = {
@@ -12,6 +17,7 @@ DSET_SPLIT_SIZES = {
     'pred': [0, 1],
     None: [0, 1],
 }
+
 
 
 class SynthDataset(Dataset):
@@ -71,7 +77,7 @@ class SynthDataset(Dataset):
 
 if __name__ == '__main__':
     import torch
-    dset = SynthDataset(None, True)
+    dset = SynthDataset(opt(), True)
     healthy_dataloader = torch.utils.data.DataLoader(dset, batch_size=64,
                                                      shuffle=True, drop_last=True)
     for batch in healthy_dataloader:
