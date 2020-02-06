@@ -83,6 +83,7 @@ def prepare_data(out_path,
 
     Features = np.zeros(
         [image_size ** 2, numNsamples + numP1samples + numP2samples])
+        
     GT = np.zeros([image_size ** 2, numNsamples + numP1samples + numP2samples])
     Labels = np.zeros(numNsamples+numP1samples+numP2samples)
     half_imsize = np.int(image_size / 2)
@@ -159,7 +160,7 @@ def prepare_data(out_path,
             J = utils.map_image_to_intensity_range(
                 J, -1, 1, percentiles=norm_percentile)
 
-        Features[:, n+numP1samples+numP2samples] = J.reshape(image_size ** 2)
+        Features[:, n+numP1samples+numP2samples] = J.reshape(image_size ** 2) #store by columns
         Labels[n+numP1samples+numP2samples] = 0
 
     if save_type == 'text':

@@ -1,3 +1,6 @@
+#output of synthetic data
+output/
+
 # Custom
 *.DS_Store
 dataset/
