@@ -221,13 +221,15 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
             if gen_iterations % 50 == 0:
                 torch.set_grad_enabled(False)
                 anomaly_map = net_g(fixed_model_input)
-                inp = np.vstack(np.hsplit(np.hstack(fixed_model_input[:, 0]), 4))
-                img = np.vstack(np.hsplit(np.hstack(anomaly_map.data[:, 0]), 4))
+                #add cuda tensor to numpy tensor conversion here
+                inp = np.vstack(np.hsplit(np.hstack(fixed_model_input[:, 0].cpu().clone().numpy()), 4))
+                img = np.vstack(np.hsplit(np.hstack(anomaly_map.data[:, 0].cpu().clone().numpy()), 4))
                 path = '{:}/fake_samples_{:05d}.png'.format(opt.experiment, gen_iterations)
                 plt.imsave(path, -img, cmap='gray')
                 path = '{:}/sum_samples_{:05d}.png'.format(opt.experiment, gen_iterations)
                 plt.imsave(path, inp + img, cmap='gray')
                 torch.set_grad_enabled(True)
+                print('samples stored in '+ path)
 
         # do checkpointing
         torch.save(net_g.state_dict(),

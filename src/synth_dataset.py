@@ -14,9 +14,9 @@ DSET_SPLIT_SIZES = {
 }
 
 class opt:
-  def __init__(self):
-    self.dataset_root = 'output'
-    self.image_size = 112
+    def __init__(self):
+        self.dataset_root = 'output'
+        self.image_size = 112
 
 
 
