@@ -157,7 +157,7 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
             else:
                 d_iters = opt.d_iters
             j = 0
-            while j < d_iters and i < len(anomaly_dataloader): ## iterate through batches
+            while j < d_iters and i < len(anomaly_dataloader): ## iterate within one batch
                 j += 1
 
                 data = data_iter.next()
@@ -179,19 +179,19 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
                 anomaly_cpu.requires_grad = True
                 anomaly_cpu = anomaly_cpu.to(device)
 
-                anomaly_map = net_g(anomaly_cpu)
+                anomaly_map = net_g(anomaly_cpu) ## negative of the anomaly features
 
                 outputv = anomaly_map
-                img_sum = anomaly_cpu + outputv ## map + feature
+                img_sum = anomaly_cpu + outputv ## map + negative feature
 
                 err_d_anomaly_map = net_d(img_sum) 
 
-                cri_loss = err_d_real.mean() - err_d_anomaly_map.mean() ## critic loss = real_img err - anomaly_img err
+                cri_loss = err_d_real.mean() - err_d_anomaly_map.mean() ## critic loss = real scores - anomaly scores err
                 cri_loss += calc_gradient_penalty(net_d, anomaly_cpu, img_sum.data) ## ?
 
                 cri_loss.backward()
 
-                err_d = err_d_real - err_d_anomaly_map
+                err_d = err_d_real - err_d_anomaly_map ## error tensor used for display 
                 optim_d.step()
 
             ############################
@@ -204,7 +204,7 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
             anomaly_map = net_g(anomaly_cpu)
 
             # minimize the l1 norm for the anomaly map
-            gen_loss = net_d(anomaly_cpu + anomaly_map).mean() 
+            gen_loss = net_d(anomaly_cpu + anomaly_map).mean() ## critic's anomaly score = generator loss
             err_g = gen_loss
 
             gen_loss += torch.abs(anomaly_map).mean() * LAMBDA_NORM ## mean err * 100
