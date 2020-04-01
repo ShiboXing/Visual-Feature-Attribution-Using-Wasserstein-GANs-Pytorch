@@ -13,10 +13,6 @@ DSET_SPLIT_SIZES = {
     None: [0, 1],
 }
 
-class opt:
-  def __init__(self):
-    self.dataset_root = 'output'
-    self.image_size = 112
 
 
 
@@ -34,7 +30,8 @@ class SynthDataset(Dataset):
         if 'loaded' not in CACHE:
             self.load_cache(opt)
         split_size = DSET_SPLIT_SIZES[mode]
-        idxs = np.where(CACHE['y'] == int(anomaly))[0]
+        idxs = np.where(CACHE['y'] == int(anomaly))[0] #first index to get the result, see np.where() with only condition
+        
         l1 = int(len(idxs) * split_size[0])
         l2 = int(len(idxs) * split_size[1])
         self.idxs = idxs[l1:l2]
@@ -76,6 +73,11 @@ class SynthDataset(Dataset):
         return x, y, mask
 
 
+class opt:
+    def __init__(self):
+        self.dataset_root = 'output'
+        self.image_size = 112
+        
 class run:
     def __init__(self):
         import torch

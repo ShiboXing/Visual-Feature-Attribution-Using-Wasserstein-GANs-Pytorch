@@ -1,3 +1,5 @@
+#output of GAN
+samples/
 #output of synthetic data
 output/
 ITKBuild/
@@ -5,7 +7,6 @@ ITKBuild/
 # Custom
 *.DS_Store
 dataset/
-samples/
 *.tar.gz
 preproc_data/
 .ipynb*

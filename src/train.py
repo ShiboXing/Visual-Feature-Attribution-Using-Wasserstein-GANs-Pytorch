@@ -61,7 +61,7 @@ def init_model(opt):
     '''
     net_g = UNet(nf=opt.num_filters_g)
     net_g = nn.Sequential(net_g, nn.Tanh())
-    net_d = C3DFCN(opt.channels_number, opt.num_filters_d)
+    net_d = C3DFCN(opt.channels_number, opt.num_filters_d) ## default channels = 1, filters d & g = 16
     return net_g, net_d
 
 
@@ -140,10 +140,10 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
 
     gen_iterations = 0
     for epoch in range(opt.nepochs):
-        data_iter = iter(healthy_dataloader)
+        data_iter = iter(healthy_dataloader) ## batch 
         anomaly_data_iter = iter(anomaly_dataloader)
         i = 0
-        while i < len(anomaly_dataloader):
+        while i < len(anomaly_dataloader): 
             ############################
             # (1) Update D network
             ###########################
@@ -157,7 +157,7 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
             else:
                 d_iters = opt.d_iters
             j = 0
-            while j < d_iters and i < len(anomaly_dataloader):
+            while j < d_iters and i < len(anomaly_dataloader): ## iterate within one batch
                 j += 1
 
                 data = data_iter.next()
@@ -166,11 +166,11 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
                 # train with real / healthy data
                 real_cpu = data[0]
                 real_cpu.requires_grad = True
-                real_cpu = real_cpu.to(device)
+                real_cpu = real_cpu.to(device) ## cuda:0
 
                 net_d.zero_grad()
 
-                err_d_real = net_d(real_cpu)
+                err_d_real = net_d(real_cpu) 
 
                 # train with sum (anomalous + anomaly map)
                 data = anomaly_data_iter.next()
@@ -179,19 +179,19 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
                 anomaly_cpu.requires_grad = True
                 anomaly_cpu = anomaly_cpu.to(device)
 
-                anomaly_map = net_g(anomaly_cpu)
+                anomaly_map = net_g(anomaly_cpu) ## negative of the anomaly features
 
                 outputv = anomaly_map
-                img_sum = anomaly_cpu + outputv
+                img_sum = anomaly_cpu + outputv ## map + negative feature
 
-                err_d_anomaly_map = net_d(img_sum)
+                err_d_anomaly_map = net_d(img_sum) 
 
-                cri_loss = err_d_real.mean() - err_d_anomaly_map.mean()
-                cri_loss += calc_gradient_penalty(net_d, anomaly_cpu, img_sum.data)
+                cri_loss = err_d_real.mean() - err_d_anomaly_map.mean() ## critic loss = real scores - anomaly scores err
+                cri_loss += calc_gradient_penalty(net_d, anomaly_cpu, img_sum.data) ## ?
 
                 cri_loss.backward()
 
-                err_d = err_d_real - err_d_anomaly_map
+                err_d = err_d_real - err_d_anomaly_map ## error tensor used for display 
                 optim_d.step()
 
             ############################
@@ -204,11 +204,11 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
             anomaly_map = net_g(anomaly_cpu)
 
             # minimize the l1 norm for the anomaly map
-            gen_loss = net_d(anomaly_cpu + anomaly_map).mean()
+            gen_loss = net_d(anomaly_cpu + anomaly_map).mean() ## critic's anomaly score = generator loss
             err_g = gen_loss
 
-            gen_loss += torch.abs(anomaly_map).mean() * LAMBDA_NORM
-            gen_loss.backward()
+            gen_loss += torch.abs(anomaly_map).mean() * LAMBDA_NORM ## mean err * 100
+            gen_loss.backward() 
 
             optim_g.step()
             gen_iterations += 1
@@ -221,13 +221,15 @@ def train(opt, healthy_dataloader, anomaly_dataloader, net_g, net_d, optim_g, op
             if gen_iterations % 50 == 0:
                 torch.set_grad_enabled(False)
                 anomaly_map = net_g(fixed_model_input)
-                inp = np.vstack(np.hsplit(np.hstack(fixed_model_input[:, 0]), 4))
-                img = np.vstack(np.hsplit(np.hstack(anomaly_map.data[:, 0]), 4))
+                #add cuda tensor to numpy tensor conversion here
+                inp = np.vstack(np.hsplit(np.hstack(fixed_model_input[:, 0].cpu().clone().numpy()), 4))
+                img = np.vstack(np.hsplit(np.hstack(anomaly_map.data[:, 0].cpu().clone().numpy()), 4))
                 path = '{:}/fake_samples_{:05d}.png'.format(opt.experiment, gen_iterations)
                 plt.imsave(path, -img, cmap='gray')
                 path = '{:}/sum_samples_{:05d}.png'.format(opt.experiment, gen_iterations)
                 plt.imsave(path, inp + img, cmap='gray')
                 torch.set_grad_enabled(True)
+                print('samples stored in '+ path)
 
         # do checkpointing
         torch.save(net_g.state_dict(),

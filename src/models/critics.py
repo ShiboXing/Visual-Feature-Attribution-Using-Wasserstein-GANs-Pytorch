@@ -36,5 +36,6 @@ class C3DFCN(nn.Module):
 
     def forward(self, x):
         x = self.encoder(x)
-        x = self.classifier(x)
-        return x.view(x.size(0), -1).mean(1)
+        x = self.classifier(x) ## contains a ReLu activation
+        return x.view(x.size(0), -1).mean(1) ## view: reshape, -1 -> infer from the other dimension
+        ## err = 1st dimension means
