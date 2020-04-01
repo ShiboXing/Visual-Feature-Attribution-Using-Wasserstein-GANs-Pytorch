@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferAsciiMeshIO.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferAsciiMeshIOFactory.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferBinaryMeshIO.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferBinaryMeshIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOMeshFreeSurfer"
+		],
+		"name" : "ITKIOMeshFreeSurfer"
+	}
+}

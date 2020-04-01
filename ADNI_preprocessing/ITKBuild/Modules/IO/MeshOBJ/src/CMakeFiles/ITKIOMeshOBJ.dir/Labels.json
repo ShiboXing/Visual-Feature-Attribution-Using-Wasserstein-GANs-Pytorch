@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshOBJ/src/itkOBJMeshIO.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshOBJ/src/itkOBJMeshIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOMeshOBJ"
+		],
+		"name" : "ITKIOMeshOBJ"
+	}
+}

@@ -1,0 +1,31 @@
+/**
+ \defgroup ITKIOMesh Module ITKIOMesh 
+ This module contains classes for reading and writing
+Meshes as opposed to general images.
+
+This module is present for backwards compatibility and should not be used -
+for support for a specific mesh file format, depend on the specific
+module, instead. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKIOMeshBYU 
+ \li \ref ITKIOMeshBase 
+ \li \ref ITKIOMeshFreeSurfer 
+ \li \ref ITKIOMeshGifti 
+ \li \ref ITKIOMeshOBJ 
+ \li \ref ITKIOMeshOFF 
+ \li \ref ITKIOMeshVTK 
+ \dot 
+ graph "ITKIOMesh" { 
+ "ITKIOMesh" -- "ITKCommon"; 
+ "ITKIOMesh" -- "ITKIOMeshBYU"; 
+ "ITKIOMesh" -- "ITKIOMeshBase"; 
+ "ITKIOMesh" -- "ITKIOMeshFreeSurfer"; 
+ "ITKIOMesh" -- "ITKIOMeshGifti"; 
+ "ITKIOMesh" -- "ITKIOMeshOBJ"; 
+ "ITKIOMesh" -- "ITKIOMeshOFF"; 
+ "ITKIOMesh" -- "ITKIOMeshVTK"; 
+ } 
+ \enddot 
+ */
+

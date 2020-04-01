@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKTestKernel-5.0.a  CMakeFiles/ITKTestKernel.dir/itkTestDriverIncludeRequiredIOFactories.cxx.o CMakeFiles/ITKTestKernel.dir/itkTestDriverInclude.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKTestKernel-5.0.a

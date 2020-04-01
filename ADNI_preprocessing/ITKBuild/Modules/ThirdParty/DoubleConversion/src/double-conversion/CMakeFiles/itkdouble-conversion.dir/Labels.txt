@@ -1,0 +1,21 @@
+# Target labels
+ ITKDoubleConversion
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum-dtoa.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.cc
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/ieee.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.h
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/utils.h
+/Users/a---/Desktop/Visual-Feature-Attribution-Using-Wasserstein-GANs-Pytorch/ADNI_preprocessing/ITKBuild/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion-configure.h

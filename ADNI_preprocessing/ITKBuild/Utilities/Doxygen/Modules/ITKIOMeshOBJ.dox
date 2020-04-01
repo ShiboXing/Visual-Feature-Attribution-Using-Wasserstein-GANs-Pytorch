@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKIOMeshOBJ Module ITKIOMeshOBJ 
+ This module contains classes for reading and writing
+Meshes in the OBJ file format. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKIOMeshBase 
+ \li \ref ITKMesh 
+ \dot 
+ graph "ITKIOMeshOBJ" { 
+ "ITKIOMeshOBJ" -- "ITKCommon"; 
+ "ITKIOMeshOBJ" -- "ITKIOMeshBase"; 
+ "ITKIOMeshOBJ" -- "ITKMesh"; 
+ } 
+ \enddot 
+ */
+

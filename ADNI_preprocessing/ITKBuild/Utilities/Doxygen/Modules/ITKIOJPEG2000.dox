@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOJPEG2000 Module ITKIOJPEG2000 
+ This module contains an ImageIO class for reading and
+writing files in the JPEG2000 format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKOpenJPEG 
+ \dot 
+ graph "ITKIOJPEG2000" { 
+ "ITKIOJPEG2000" -- "ITKIOImageBase"; 
+ "ITKIOJPEG2000" -- "ITKOpenJPEG"; 
+ } 
+ \enddot 
+ */
+

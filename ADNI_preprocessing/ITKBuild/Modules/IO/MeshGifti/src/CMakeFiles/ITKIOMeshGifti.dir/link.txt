@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMeshGifti-5.0.a  CMakeFiles/ITKIOMeshGifti.dir/itkGiftiMeshIO.cxx.o CMakeFiles/ITKIOMeshGifti.dir/itkGiftiMeshIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMeshGifti-5.0.a

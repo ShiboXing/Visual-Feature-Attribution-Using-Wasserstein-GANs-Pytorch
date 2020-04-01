@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MINC/src/itkMINCImageIO.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MINC/src/itkMINCImageIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOMINC"
+		],
+		"name" : "ITKIOMINC"
+	}
+}

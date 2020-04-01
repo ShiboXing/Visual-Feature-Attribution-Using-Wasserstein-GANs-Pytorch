@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOStimulate
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/Stimulate/src/itkStimulateImageIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/Stimulate/src/itkStimulateImageIOFactory.cxx

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/SpatialObjects/src/itkPolygonGroupSpatialObjectXMLFile.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOSpatialObjects"
+		],
+		"name" : "ITKIOSpatialObjects"
+	}
+}

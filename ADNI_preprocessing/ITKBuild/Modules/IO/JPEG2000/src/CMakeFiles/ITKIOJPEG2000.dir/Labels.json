@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/JPEG2000/src/itkJPEG2000ImageIOFactory.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/JPEG2000/src/itkJPEG2000ImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOJPEG2000"
+		],
+		"name" : "ITKIOJPEG2000"
+	}
+}

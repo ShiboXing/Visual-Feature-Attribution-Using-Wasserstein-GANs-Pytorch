@@ -1,0 +1,9 @@
+# Target labels
+ ITKIOGE
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GE/src/itkGE5ImageIOFactory.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GE/src/itkGEAdwImageIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GE/src/itkGE4ImageIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GE/src/itkGEAdwImageIOFactory.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GE/src/itkGE5ImageIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GE/src/itkGE4ImageIOFactory.cxx

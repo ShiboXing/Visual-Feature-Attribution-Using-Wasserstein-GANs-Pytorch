@@ -1,0 +1,39 @@
+# Target labels
+ ITKTIFF
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_aux.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_close.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_codec.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_compress.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_color.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dir.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dirinfo.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dirread.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dirwrite.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dumpmode.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_error.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_extension.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_flush.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_getimage.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_luv.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_lzw.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_next.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_open.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_packbits.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_pixarlog.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_predict.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_print.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_read.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_strip.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_swab.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_tile.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_thunder.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_version.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_warning.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_write.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_zip.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_jpeg.c
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/TIFF/src/itktiff/tif_unix.c
+/Users/a---/Desktop/Visual-Feature-Attribution-Using-Wasserstein-GANs-Pytorch/ADNI_preprocessing/ITKBuild/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c
+/Users/a---/Desktop/Visual-Feature-Attribution-Using-Wasserstein-GANs-Pytorch/ADNI_preprocessing/ITKBuild/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c.rule

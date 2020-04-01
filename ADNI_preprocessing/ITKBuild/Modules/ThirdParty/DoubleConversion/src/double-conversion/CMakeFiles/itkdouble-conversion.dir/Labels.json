@@ -1,0 +1,67 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum-dtoa.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.cc"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/ieee.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/utils.h"
+		},
+		{
+			"file" : "/Users/a---/Desktop/Visual-Feature-Attribution-Using-Wasserstein-GANs-Pytorch/ADNI_preprocessing/ITKBuild/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion-configure.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKDoubleConversion"
+		],
+		"name" : "itkdouble-conversion"
+	}
+}

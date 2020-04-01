@@ -1,0 +1,6 @@
+# Target labels
+ ITKIOGDCM
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GDCM/src/itkGDCMImageIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GDCM/src/itkGDCMImageIOFactory.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/GDCM/src/itkGDCMSeriesFileNames.cxx

@@ -1,0 +1,7 @@
+# Target labels
+ ITKIOMeshFreeSurfer
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferAsciiMeshIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferAsciiMeshIOFactory.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferBinaryMeshIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshFreeSurfer/src/itkFreeSurferBinaryMeshIOFactory.cxx

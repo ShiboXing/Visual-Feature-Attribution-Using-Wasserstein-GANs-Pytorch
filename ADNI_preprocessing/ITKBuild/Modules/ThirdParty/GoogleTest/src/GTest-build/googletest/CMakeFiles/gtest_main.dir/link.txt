@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../lib/libitkgtest_main-5.0.a  CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../lib/libitkgtest_main-5.0.a

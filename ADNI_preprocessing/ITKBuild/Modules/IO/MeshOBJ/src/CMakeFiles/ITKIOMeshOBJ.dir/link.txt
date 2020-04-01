@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMeshOBJ-5.0.a  CMakeFiles/ITKIOMeshOBJ.dir/itkOBJMeshIO.cxx.o CMakeFiles/ITKIOMeshOBJ.dir/itkOBJMeshIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMeshOBJ-5.0.a

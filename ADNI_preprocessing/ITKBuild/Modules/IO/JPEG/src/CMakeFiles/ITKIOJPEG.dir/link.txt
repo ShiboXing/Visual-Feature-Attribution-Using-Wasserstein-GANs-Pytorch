@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOJPEG-5.0.a  CMakeFiles/ITKIOJPEG.dir/itkJPEGImageIOFactory.cxx.o CMakeFiles/ITKIOJPEG.dir/itkJPEGImageIO.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOJPEG-5.0.a

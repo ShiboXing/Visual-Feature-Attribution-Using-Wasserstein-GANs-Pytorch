@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/QuadEdgeMesh/src/itkQuadEdge.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKQuadEdgeMesh"
+		],
+		"name" : "ITKQuadEdgeMesh"
+	}
+}

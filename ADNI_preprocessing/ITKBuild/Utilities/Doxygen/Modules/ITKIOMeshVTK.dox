@@ -1,0 +1,19 @@
+/**
+ \defgroup ITKIOMeshVTK Module ITKIOMeshVTK 
+ This module contains classes for reading and writing
+Meshes in the VTK file format. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKDoubleConversion 
+ \li \ref ITKIOMeshBase 
+ \li \ref ITKMesh 
+ \dot 
+ graph "ITKIOMeshVTK" { 
+ "ITKIOMeshVTK" -- "ITKCommon"; 
+ "ITKIOMeshVTK" -- "ITKDoubleConversion"; 
+ "ITKIOMeshVTK" -- "ITKIOMeshBase"; 
+ "ITKIOMeshVTK" -- "ITKMesh"; 
+ } 
+ \enddot 
+ */
+

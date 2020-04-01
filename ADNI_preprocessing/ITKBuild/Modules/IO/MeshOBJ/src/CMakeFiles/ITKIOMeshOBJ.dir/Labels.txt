@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOMeshOBJ
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshOBJ/src/itkOBJMeshIO.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshOBJ/src/itkOBJMeshIOFactory.cxx

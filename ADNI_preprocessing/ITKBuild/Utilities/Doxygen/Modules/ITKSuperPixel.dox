@@ -1,0 +1,20 @@
+/**
+ \defgroup ITKSuperPixel Module ITKSuperPixel 
+ This module contains the basic framework for Video IO as
+well as the FileListIO mechanism that does not depend on any outside
+libraries. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKImageGrid 
+ \li \ref ITKImageSources 
+ \li \ref ITKStatistics 
+ \dot 
+ graph "ITKSuperPixel" { 
+ "ITKSuperPixel" -- "ITKCommon"; 
+ "ITKSuperPixel" -- "ITKImageGrid"; 
+ "ITKSuperPixel" -- "ITKImageSources"; 
+ "ITKSuperPixel" -- "ITKStatistics"; 
+ } 
+ \enddot 
+ */
+

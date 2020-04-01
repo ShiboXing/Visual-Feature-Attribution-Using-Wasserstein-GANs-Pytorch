@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKSpatialObjects-5.0.a  CMakeFiles/ITKSpatialObjects.dir/itkMetaEvent.cxx.o CMakeFiles/ITKSpatialObjects.dir/itkSpatialObjectFactoryBase.cxx.o CMakeFiles/ITKSpatialObjects.dir/itkSpatialObjectProperty.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKSpatialObjects-5.0.a

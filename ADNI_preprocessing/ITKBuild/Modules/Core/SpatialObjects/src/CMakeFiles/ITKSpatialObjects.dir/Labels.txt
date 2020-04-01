@@ -1,0 +1,6 @@
+# Target labels
+ ITKSpatialObjects
+# Source files and their labels
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/SpatialObjects/src/itkMetaEvent.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/SpatialObjects/src/itkSpatialObjectFactoryBase.cxx
+/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/SpatialObjects/src/itkSpatialObjectProperty.cxx

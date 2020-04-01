@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/TestKernel/src/itkTestDriverIncludeRequiredIOFactories.cxx"
+		},
+		{
+			"file" : "/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/TestKernel/src/itkTestDriverInclude.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKTestKernel"
+		],
+		"name" : "ITKTestKernel"
+	}
+}

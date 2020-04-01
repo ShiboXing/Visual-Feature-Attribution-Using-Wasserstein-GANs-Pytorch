@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMeshBase-5.0.a  CMakeFiles/ITKIOMeshBase.dir/itkMeshFileReaderException.cxx.o CMakeFiles/ITKIOMeshBase.dir/itkMeshFileWriterException.cxx.o CMakeFiles/ITKIOMeshBase.dir/itkMeshIOBase.cxx.o CMakeFiles/ITKIOMeshBase.dir/itkMeshIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMeshBase-5.0.a

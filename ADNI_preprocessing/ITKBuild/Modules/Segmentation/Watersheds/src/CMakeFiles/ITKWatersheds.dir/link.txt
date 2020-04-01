@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKWatersheds-5.0.a  CMakeFiles/ITKWatersheds.dir/itkWatershedMiniPipelineProgressCommand.cxx.o CMakeFiles/ITKWatersheds.dir/itkOneWayEquivalencyTable.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKWatersheds-5.0.a
