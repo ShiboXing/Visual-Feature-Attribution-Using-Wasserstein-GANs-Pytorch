@@ -1,5 +1,0 @@
-# Target labels
- ITKIOSiemens
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/Siemens/src/itkSiemensVisionImageIOFactory.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/Siemens/src/itkSiemensVisionImageIO.cxx

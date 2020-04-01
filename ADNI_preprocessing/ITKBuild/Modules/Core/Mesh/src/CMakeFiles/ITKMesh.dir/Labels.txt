@@ -1,5 +1,0 @@
-# Target labels
- ITKMesh
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/Mesh/src/itkMeshRegion.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Core/Mesh/src/itkSimplexMeshGeometry.cxx

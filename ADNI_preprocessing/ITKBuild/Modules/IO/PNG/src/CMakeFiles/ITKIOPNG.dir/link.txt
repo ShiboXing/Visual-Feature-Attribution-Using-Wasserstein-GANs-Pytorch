@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOPNG-5.0.a  CMakeFiles/ITKIOPNG.dir/itkPNGImageIOFactory.cxx.o CMakeFiles/ITKIOPNG.dir/itkPNGImageIO.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOPNG-5.0.a

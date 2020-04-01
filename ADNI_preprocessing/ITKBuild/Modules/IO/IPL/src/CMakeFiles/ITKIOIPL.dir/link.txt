@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOIPL-5.0.a  CMakeFiles/ITKIOIPL.dir/itkIPLCommonImageIO.cxx.o CMakeFiles/ITKIOIPL.dir/itkIPLFileNameList.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOIPL-5.0.a

@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMeshFreeSurfer-5.0.a  CMakeFiles/ITKIOMeshFreeSurfer.dir/itkFreeSurferAsciiMeshIO.cxx.o CMakeFiles/ITKIOMeshFreeSurfer.dir/itkFreeSurferAsciiMeshIOFactory.cxx.o CMakeFiles/ITKIOMeshFreeSurfer.dir/itkFreeSurferBinaryMeshIO.cxx.o CMakeFiles/ITKIOMeshFreeSurfer.dir/itkFreeSurferBinaryMeshIOFactory.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMeshFreeSurfer-5.0.a

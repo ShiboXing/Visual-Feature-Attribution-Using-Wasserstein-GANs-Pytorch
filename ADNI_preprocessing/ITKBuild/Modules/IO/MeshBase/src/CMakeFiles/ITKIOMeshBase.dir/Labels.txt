@@ -1,7 +1,0 @@
-# Target labels
- ITKIOMeshBase
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshBase/src/itkMeshFileReaderException.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshBase/src/itkMeshFileWriterException.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshBase/src/itkMeshIOBase.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshBase/src/itkMeshIOFactory.cxx

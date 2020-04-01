@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOGE-5.0.a  CMakeFiles/ITKIOGE.dir/itkGE5ImageIOFactory.cxx.o CMakeFiles/ITKIOGE.dir/itkGEAdwImageIO.cxx.o CMakeFiles/ITKIOGE.dir/itkGE4ImageIO.cxx.o CMakeFiles/ITKIOGE.dir/itkGEAdwImageIOFactory.cxx.o CMakeFiles/ITKIOGE.dir/itkGE5ImageIO.cxx.o CMakeFiles/ITKIOGE.dir/itkGE4ImageIOFactory.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOGE-5.0.a

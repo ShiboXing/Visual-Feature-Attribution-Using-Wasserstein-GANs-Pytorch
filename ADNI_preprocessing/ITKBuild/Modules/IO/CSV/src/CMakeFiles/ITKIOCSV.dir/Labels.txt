@@ -1,4 +1,0 @@
-# Target labels
- ITKIOCSV
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/CSV/src/itkCSVFileReaderBase.cxx

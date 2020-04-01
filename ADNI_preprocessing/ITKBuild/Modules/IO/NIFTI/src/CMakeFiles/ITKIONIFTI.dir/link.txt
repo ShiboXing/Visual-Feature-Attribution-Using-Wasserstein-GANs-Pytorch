@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIONIFTI-5.0.a  CMakeFiles/ITKIONIFTI.dir/itkNiftiImageIOFactory.cxx.o CMakeFiles/ITKIONIFTI.dir/itkNiftiImageIO.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIONIFTI-5.0.a

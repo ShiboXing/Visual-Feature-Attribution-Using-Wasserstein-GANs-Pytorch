@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKPath-5.0.a  CMakeFiles/ITKPath.dir/itkChainCodePath2D.cxx.o CMakeFiles/ITKPath.dir/itkOrthogonallyCorrected2DParametricPath.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKPath-5.0.a

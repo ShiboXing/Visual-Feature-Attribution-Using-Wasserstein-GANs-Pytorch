@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKVTK-5.0.a  CMakeFiles/ITKVTK.dir/itkVTKImageExportBase.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKVTK-5.0.a

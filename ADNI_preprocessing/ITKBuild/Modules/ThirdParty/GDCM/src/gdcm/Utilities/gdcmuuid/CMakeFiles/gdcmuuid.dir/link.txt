@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../../lib/libitkgdcmuuid-5.0.a  CMakeFiles/gdcmuuid.dir/compare.c.o CMakeFiles/gdcmuuid.dir/gen_uuid.c.o CMakeFiles/gdcmuuid.dir/pack.c.o CMakeFiles/gdcmuuid.dir/parse.c.o CMakeFiles/gdcmuuid.dir/unpack.c.o CMakeFiles/gdcmuuid.dir/unparse.c.o CMakeFiles/gdcmuuid.dir/uuid_time.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../../lib/libitkgdcmuuid-5.0.a

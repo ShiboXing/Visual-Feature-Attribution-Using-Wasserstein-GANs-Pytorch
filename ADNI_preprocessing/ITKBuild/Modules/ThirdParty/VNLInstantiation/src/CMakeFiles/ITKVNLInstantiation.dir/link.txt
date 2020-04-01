@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKVNLInstantiation-5.0.a  CMakeFiles/ITKVNLInstantiation.dir/libraryplaceholder.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKVNLInstantiation-5.0.a

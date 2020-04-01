@@ -1,5 +1,0 @@
-# Target labels
- ITKIOBMP
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/BMP/src/itkBMPImageIO.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/BMP/src/itkBMPImageIOFactory.cxx

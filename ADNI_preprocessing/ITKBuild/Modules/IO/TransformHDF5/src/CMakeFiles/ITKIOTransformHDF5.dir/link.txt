@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOTransformHDF5-5.0.a  CMakeFiles/ITKIOTransformHDF5.dir/itkHDF5TransformIO.cxx.o CMakeFiles/ITKIOTransformHDF5.dir/itkHDF5TransformIOFactory.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOTransformHDF5-5.0.a

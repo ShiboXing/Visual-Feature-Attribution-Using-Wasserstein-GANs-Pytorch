@@ -1,8 +1,0 @@
-# Target labels
- ITKDICOMParser
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMSource.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMBuffer.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMFile.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMParser.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMAppHelper.cxx

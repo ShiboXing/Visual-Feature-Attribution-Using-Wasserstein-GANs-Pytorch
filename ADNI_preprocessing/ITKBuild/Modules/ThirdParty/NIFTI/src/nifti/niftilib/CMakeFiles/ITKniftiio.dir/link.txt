@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../lib/libITKniftiio-5.0.a  CMakeFiles/ITKniftiio.dir/nifti1_io.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../lib/libITKniftiio-5.0.a

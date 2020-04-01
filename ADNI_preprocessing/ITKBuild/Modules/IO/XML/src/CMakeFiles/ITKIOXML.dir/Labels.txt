@@ -1,9 +1,0 @@
-# Target labels
- ITKIOXML
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/XML/src/itkXMLFile.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/XML/src/itkDOMNode.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/XML/src/itkDOMNodeXMLReader.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/XML/src/itkDOMNodeXMLWriter.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/XML/src/itkStringTools.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/XML/src/itkFancyString.cxx

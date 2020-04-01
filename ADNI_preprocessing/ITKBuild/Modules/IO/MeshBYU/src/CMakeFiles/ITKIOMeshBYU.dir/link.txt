@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMeshBYU-5.0.a  CMakeFiles/ITKIOMeshBYU.dir/itkBYUMeshIO.cxx.o CMakeFiles/ITKIOMeshBYU.dir/itkBYUMeshIOFactory.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMeshBYU-5.0.a

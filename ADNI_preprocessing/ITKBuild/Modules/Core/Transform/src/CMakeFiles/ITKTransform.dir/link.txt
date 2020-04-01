@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKTransform-5.0.a  CMakeFiles/ITKTransform.dir/itkTransformBase.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKTransform-5.0.a

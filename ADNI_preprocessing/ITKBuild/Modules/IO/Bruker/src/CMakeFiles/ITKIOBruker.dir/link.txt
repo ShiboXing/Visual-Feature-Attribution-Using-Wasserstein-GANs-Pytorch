@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOBruker-5.0.a  CMakeFiles/ITKIOBruker.dir/itkBruker2dseqImageIOFactory.cxx.o CMakeFiles/ITKIOBruker.dir/itkBruker2dseqImageIO.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOBruker-5.0.a

@@ -1,6 +1,0 @@
-# Target labels
- ITKTransformFactory
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/TransformFactory/src/itkTransformFactoryBase.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterFloatParameters.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterDoubleParameters.cxx

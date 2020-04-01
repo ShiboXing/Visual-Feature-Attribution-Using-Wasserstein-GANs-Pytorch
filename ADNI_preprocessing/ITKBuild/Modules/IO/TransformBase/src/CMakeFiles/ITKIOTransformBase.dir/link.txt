@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOTransformBase-5.0.a  CMakeFiles/ITKIOTransformBase.dir/itkCompositeTransformIOHelper.cxx.o CMakeFiles/ITKIOTransformBase.dir/itkTransformFileReader.cxx.o CMakeFiles/ITKIOTransformBase.dir/itkTransformFileWriterSpecializations.cxx.o CMakeFiles/ITKIOTransformBase.dir/itkTransformIOBase.cxx.o CMakeFiles/ITKIOTransformBase.dir/itkTransformIOFactory.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOTransformBase-5.0.a

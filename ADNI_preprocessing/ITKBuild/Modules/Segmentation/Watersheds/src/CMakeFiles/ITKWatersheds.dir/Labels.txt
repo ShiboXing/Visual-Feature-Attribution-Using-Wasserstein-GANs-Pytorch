@@ -1,5 +1,0 @@
-# Target labels
- ITKWatersheds
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Segmentation/Watersheds/src/itkWatershedMiniPipelineProgressCommand.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Segmentation/Watersheds/src/itkOneWayEquivalencyTable.cxx

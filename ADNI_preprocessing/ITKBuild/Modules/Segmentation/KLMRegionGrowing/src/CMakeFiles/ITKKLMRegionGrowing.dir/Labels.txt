@@ -1,7 +1,0 @@
-# Target labels
- ITKKLMRegionGrowing
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Segmentation/KLMRegionGrowing/src/itkSegmentationRegion.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Segmentation/KLMRegionGrowing/src/itkKLMSegmentationRegion.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Segmentation/KLMRegionGrowing/src/itkSegmentationBorder.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/Segmentation/KLMRegionGrowing/src/itkKLMSegmentationBorder.cxx

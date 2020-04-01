@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libitklbfgs-5.0.a  CMakeFiles/itklbfgs.dir/lbfgs.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libitklbfgs-5.0.a

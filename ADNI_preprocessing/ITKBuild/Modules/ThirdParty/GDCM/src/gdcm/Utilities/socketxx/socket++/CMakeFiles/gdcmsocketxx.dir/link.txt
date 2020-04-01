@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../../../lib/libitkgdcmsocketxx-5.0.a  CMakeFiles/gdcmsocketxx.dir/sockstream.cpp.o CMakeFiles/gdcmsocketxx.dir/sockinet.cpp.o CMakeFiles/gdcmsocketxx.dir/fork.cpp.o CMakeFiles/gdcmsocketxx.dir/protocol.cpp.o CMakeFiles/gdcmsocketxx.dir/echo.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../../../lib/libitkgdcmsocketxx-5.0.a

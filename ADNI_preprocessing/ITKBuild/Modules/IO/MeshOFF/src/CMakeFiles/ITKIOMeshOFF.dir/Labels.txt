@@ -1,5 +1,0 @@
-# Target labels
- ITKIOMeshOFF
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshOFF/src/itkOFFMeshIO.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshOFF/src/itkOFFMeshIOFactory.cxx

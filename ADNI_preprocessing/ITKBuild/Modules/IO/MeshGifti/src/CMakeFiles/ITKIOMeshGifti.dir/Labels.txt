@@ -1,5 +1,0 @@
-# Target labels
- ITKIOMeshGifti
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshGifti/src/itkGiftiMeshIO.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/MeshGifti/src/itkGiftiMeshIOFactory.cxx

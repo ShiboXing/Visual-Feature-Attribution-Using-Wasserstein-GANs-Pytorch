@@ -1,5 +1,0 @@
-# Target labels
- ITKIOVTK
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/VTK/src/itkVTKImageIOFactory.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/VTK/src/itkVTKImageIO.cxx

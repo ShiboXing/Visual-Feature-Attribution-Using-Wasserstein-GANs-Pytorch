@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOCSV-5.0.a  CMakeFiles/ITKIOCSV.dir/itkCSVFileReaderBase.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOCSV-5.0.a

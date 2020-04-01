@@ -1,6 +1,0 @@
-# Target labels
- ITKIOTIFF
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/TIFF/src/itkTIFFImageIO.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/TIFF/src/itkTIFFReaderInternal.cxx
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/IO/TIFF/src/itkTIFFImageIOFactory.cxx

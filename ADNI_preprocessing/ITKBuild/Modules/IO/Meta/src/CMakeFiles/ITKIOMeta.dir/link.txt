@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMeta-5.0.a  CMakeFiles/ITKIOMeta.dir/itkMetaArrayWriter.cxx.o CMakeFiles/ITKIOMeta.dir/itkMetaImageIO.cxx.o CMakeFiles/ITKIOMeta.dir/itkMetaArrayReader.cxx.o CMakeFiles/ITKIOMeta.dir/itkMetaImageIOFactory.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMeta-5.0.a

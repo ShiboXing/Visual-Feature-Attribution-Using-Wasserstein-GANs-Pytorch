@@ -1,4 +1,0 @@
-# Target labels
- ITKVNLInstantiation
-# Source files and their labels
-/Users/a---/Desktop/InsightToolkit-5.0.1/Modules/ThirdParty/VNLInstantiation/src/libraryplaceholder.cxx
