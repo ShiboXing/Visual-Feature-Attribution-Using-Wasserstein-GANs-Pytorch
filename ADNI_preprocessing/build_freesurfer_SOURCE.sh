@@ -9,9 +9,7 @@
 fs_gz=./freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0.tar.gz
 fs_bin=/usr/local/freesurfer/
 
-if [ ! $# -eq 1 ]; then
-	sudo echo  "usage: source build_freesurfer_SOURCE.sh <SUBJECTS_DIR>"
-elif [ -d "$fs_bin" ]; then
+if [ -d "$fs_bin" ]; then
         sudo echo "freesurfer bin already exists"
 elif test -f "$fs_gz"; then
         sudo echo "freesurfer gz already exists"
@@ -24,11 +22,14 @@ else
 fi
 
 #download required packages
-sudo apt-get -y install bc binutils libgomp1 perl psmisc sudo tar tcsh unzip uuid-dev vim-common libjpeg62-dev
-
+sudo apt-get -y install bc binutils libgomp1 perl psmisc sudo tar tcsh unzip uuid-dev vim-common libjpeg62-dev 
+sudo pip install nibabel
 #configure fs
 export FREESURFER_HOME=/usr/local/freesurfer
+sudo chmod -R a+rwx $FREESURFER_HOME
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
-export SUBJECTS_DIR=$1
+#setup subjects dir
+mkdir /usr/local/freesurfer/subjects 
+export SUBJECTS_DIR=/usr/local/freesurfer/subjects
 
 echo "must use source to execute the script!"
