@@ -17,12 +17,12 @@ elif test -f "$fs_gz"; then
 else 
 	echo "downloading freesurfer gz"
         sudo curl -O https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/6.0.0/freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0.tar.gz
-        echo "building freesurfer"
+        "building freesurfer"
 	tar -C /usr/local -xzvf freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0.tar.gz
 fi
 
 #download required packages
-sudo apt-get -y install bc binutils libgomp1 perl psmisc sudo tar tcsh unzip uuid-dev vim-common libjpeg62-dev 
+sudo apt-get -y install bc binutils libgomp1 perl psmisc tar tcsh unzip uuid-dev vim-common libjpeg62-dev 
 sudo pip install nibabel
 #configure fs
 export FREESURFER_HOME=/usr/local/freesurfer
@@ -32,4 +32,8 @@ source $FREESURFER_HOME/SetUpFreeSurfer.sh
 sudo mkdir /usr/local/freesurfer/subjects 
 export SUBJECTS_DIR=/usr/local/freesurfer/subjects
 
-echo "must use source to execute the script!"
+#test exports
+echo $FREESURFER_HOME
+echo $SUBJECTS_DIR
+
+sudo echo "must use source to execute the script!"
