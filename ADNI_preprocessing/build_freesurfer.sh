@@ -29,7 +29,7 @@ export FREESURFER_HOME=/usr/local/freesurfer
 sudo chmod -R a+rwx $FREESURFER_HOME
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 #setup subjects dir
-mkdir /usr/local/freesurfer/subjects 
+sudo mkdir /usr/local/freesurfer/subjects 
 export SUBJECTS_DIR=/usr/local/freesurfer/subjects
 
 echo "must use source to execute the script!"
