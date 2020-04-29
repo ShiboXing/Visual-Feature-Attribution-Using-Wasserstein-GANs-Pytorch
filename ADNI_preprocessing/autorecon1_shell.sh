@@ -24,14 +24,20 @@ cp /usr/local/freesurfer/subjects/recon_test/mri/nu.mgz fetch_preprocessed/nuint
 #fetch talairach co-registration
 ls fetch_preprocessed/nuintensitycor/
 mkdir fetch_preprocessed/talairach
-cp /usr/local/freesurfer/subjects/recon_test/mri/transforms/talairach_with_skull.lta fetch_preprocessed/talairach
+cp /usr/local/freesurfer/subjects/recon_test/mri/transforms/* fetch_preprocessed/talairach
 #fetch normalization
 mkdir fetch_preprocessed/normalization
 cp /usr/local/freesurfer/subjects/recon_test/mri/T1.mgz fetch_preprocessed/normalization
 #fetch skullstri
 mkdir fetch_preprocessed/skullstrip
 cp /usr/local/freesurfer/subjects/recon_test/mri/brainmask.mgz fetch_preprocessed/skullstrip
+
+#perform co-registration with mni-space
+mkdir fetched_preprocessed/mni_registered
+mri_robust_register --mov fetch_preprocessed/skullstrip/brainmask.mgz --dst test_images/mni_space/mni_icbm152_t1_tal_nlin_asym_09c_mask.nii --lta fetch_preprocessed/mni_registered/reg.lta
+mri_convert fetch_preprocessed/skullstrip/brainmask.mgz fetch_preprocessed/skullstrip/mni_reg.nii --apply_transform fetch_preprocessed/mni_registered/reg.lta
+
 #convert all results to nifti
-python3 mgz2nii.py
-ls fetch_preprocessed/motioncor fetch_preprocessed/nuintensitycor fetch_preprocessed/normalization fetch_preprocessed/talairach/ fetch_preprocessed/skullstrip
+sh mgz2nii.sh
+ls fetch_preprocessed/motioncor fetch_preprocessed/nuintensitycor fetch_preprocessed/normalization fetch_preprocessed/talairach/ fetch_preprocessed/skullstrip fetch_preprocess/mni_registered
 

@@ -1,5 +1,5 @@
 # transform file transforms/talairach_with_skull.lta
-# created by shx26 on Tue Apr 28 09:16:45 2020
+# created by shx26 on Tue Apr 28 23:51:18 2020
 
 type      = 0 # LINEAR_VOX_TO_VOX
 nxforms   = 1
