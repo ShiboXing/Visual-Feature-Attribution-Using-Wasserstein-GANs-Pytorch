@@ -21,9 +21,6 @@ else
 	tar -C /usr/local -xzvf freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0.tar.gz
 fi
 
-#download required packages
-sudo apt-get -y install bc binutils libgomp1 perl psmisc tar tcsh unzip uuid-dev vim-common libjpeg62-dev 
-sudo pip install nibabel
 #configure fs
 export FREESURFER_HOME=/usr/local/freesurfer
 sudo chmod -R a+rwx $FREESURFER_HOME
@@ -37,3 +34,7 @@ echo $FREESURFER_HOME
 echo $SUBJECTS_DIR
 
 sudo echo "must use source to execute the script!"
+
+#download required packages
+sudo apt-get -y install bc binutils libgomp1 perl psmisc tar tcsh unzip uuid-dev vim-common libjpeg62-dev 
+pip install nibabel nipype
