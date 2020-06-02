@@ -33,9 +33,15 @@ mkdir fetch_preprocessed/skullstrip
 cp /usr/local/freesurfer/subjects/recon_test/mri/brainmask.mgz fetch_preprocessed/skullstrip
 
 #perform co-registration with mni-space
-mkdir fetch_preprocessed/mni_registered
-mri_robust_register --mov fetch_preprocessed/skullstrip/brainmask.mgz --dst test_images/mni_space/mni_icbm152_t1_tal_nlin_asym_09c_mask.nii --lta fetch_preprocessed/mni_registered/reg.lta --satit 
-mri_convert fetch_preprocessed/skullstrip/brainmask.mgz fetch_preprocessed/mni_registered/mni_reg.nii --apply_transform fetch_preprocessed/mni_registered/reg.lta
+
+#using freesurfer linear co-registration
+# mkdir fetch_preprocessed/mni_registered
+# mri_robust_register --mov fetch_preprocessed/skullstrip/brainmask.mgz --dst test_images/mni_space/mni_icbm152_t1_tal_nlin_asym_09c_mask.nii --lta fetch_preprocessed/mni_registered/reg.lta --satit 
+# mri_convert fetch_preprocessed/skullstrip/brainmask.mgz fetch_preprocessed/mni_registered/mni_reg.nii --apply_transform fetch_preprocessed/mni_registered/reg.lta
+
+#using spm
+sh mgz2nii_fetched.sh
+python3 spm_coregister.py
 
 #convert all results to nifti
 sh mgz2nii.sh

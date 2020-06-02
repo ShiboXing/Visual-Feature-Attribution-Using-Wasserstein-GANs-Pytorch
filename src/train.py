@@ -93,6 +93,23 @@ def init_synth_dataloader(opt, anomaly, mode='train'):
 
     return dataloader
 
+def init_adni_dataloader(opt, anomaly, mode='train'):
+    '''
+    Initialize both datasets and dataloaders
+    '''
+    dataset = SynthDataset(opt=opt, anomaly=anomaly,
+                           mode=mode,
+                           transform=transforms.Compose([
+                               torch.tensor,
+
+                           ]))
+
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=opt.batch_size,
+                                             shuffle=True, drop_last=True)
+
+    return dataloader
+
+
 
 def calc_gradient_penalty(netD, real_data, fake_data):
     '''

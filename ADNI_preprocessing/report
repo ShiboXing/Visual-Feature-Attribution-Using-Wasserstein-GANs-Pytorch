@@ -1,0 +1,4 @@
+200528-21:43:57,822 nipype.utils INFO:
+	 No new version available.
+200528-21:44:36,483 nipype.interface WARNING:
+	 Error decoding string: 'utf-8' codec can't decode byte 0xd9 in position 421: invalid continuation byte
